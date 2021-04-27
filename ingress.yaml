@@ -13,3 +13,7 @@ spec:
           backend:
             serviceName: hello-service
             servicePort: 8000
+        - path: /otusapp/vadlit/(.*)
+          backend:
+            serviceName: hello-service
+            servicePort: 8000
